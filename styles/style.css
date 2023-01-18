@@ -1,21 +1,27 @@
 /* Fonts Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
 
+/* Common Styles or Utilities */
 body {
-  font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f3f1ff;
+}
+
+.container {
+	background-color: #ffffff;
 }
 
 /* Top Players Style */
 .players {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 .player {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .player img {
-  width: 56px;
-  height: 56px;
+	width: 56px;
+	height: 56px;
 }
