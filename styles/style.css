@@ -7,11 +7,20 @@ body {
 	background-color: #f3f1ff;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
 	background-color: #ffffff;
+  width: 870px;
 }
 
 /* Top Players Style */
+.section-title {
+  color: #562EFF;
+}
 .players {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
