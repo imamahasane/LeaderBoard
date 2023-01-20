@@ -91,19 +91,33 @@ hr {
 }
 
 /* Courses Styles */
+.courses {
+	
+}
 .course img {
 	width: 224px;
 	height: 104px;
 }
 .course-info {
 	display: flex;
+	align-items: center;
+}
+.course-star {
+	margin-right: 12px;
 }
 .fa-star {
 	font-size: 12px;
 }
 .fa-star.filled {
-	color: #FFC014;
+	color: #ffc014;
 }
 .fa-star.empty {
-	color: #AEAEAE;
+	color: #aeaeae;
+}
+.course-duration {
+	margin-left: 32px;
+	background-color: #FFE4E8;
+	color: #ff4a60;
+	padding: 4px 7px;
+	border-radius: 14.6913px;
 }
